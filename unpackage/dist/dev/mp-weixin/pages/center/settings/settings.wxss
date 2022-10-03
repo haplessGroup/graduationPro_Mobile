@@ -1,0 +1,17 @@
+
+.snv{
+	width: 100%;
+}
+.sh{
+	margin: auto auto;
+}
+.snicon{
+	margin-top: 10px;
+	float: left;
+}
+.sback{
+	float: left;
+	margin-top: 10px;
+	line-height: 25px;
+}
+

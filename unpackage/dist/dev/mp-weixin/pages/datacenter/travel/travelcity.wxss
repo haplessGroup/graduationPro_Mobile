@@ -1,0 +1,84 @@
+
+.container{
+	background-color: white;
+}
+.tit{
+	font-weight: bold;
+	font-size: 30rpx;
+	text-align: center;
+	margin-top: 30px;
+}
+.content {
+	padding: 15px;
+}
+.text {
+	font-size: 14px;
+	color: #666;
+	line-height: 20px;
+}
+.judge{
+	width: 100%;
+	background-color: #DCDCDC;
+	height: 500px;
+	overflow: auto;
+}
+.textarea{
+	width: 80%;
+	margin: 0px auto;
+	overflow: hidden; /*解决外边距塌陷*/
+}
+.minp{
+	width: 100%;
+	background-color: white;
+	margin-top: 30px;
+}
+.mbut{
+	width: 100px;
+	margin-top: 10px;
+	float: right;
+}
+.mdiv{
+	width: 80%;
+	margin: 0 auto;
+}
+.divider{
+	border-top: 0.5px solid #000;
+	margin-top: 10px;
+	width: 100%;
+}
+.tcontent{
+	padding: 10px;
+	width: 80%;
+	height: 30px;
+	text-indent: 2em;
+	margin: 0 auto;
+	width: 80%;
+}
+.usermessage{
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "仿宋";
+}
+.userinfo{
+	margin-top: 20px;
+	font-size: 10px;
+	display: flex;
+	flex-direction: row;
+}
+.uspan{
+	flex:1;
+}
+.oper{
+	font-size: 10px;
+	cursor: pointer;
+	color: #005CC5;
+}
+.contents {
+	padding: 15px;
+}
+.text {
+	font-size: 14px;
+	color: #666;
+	line-height: 20px;
+}
+

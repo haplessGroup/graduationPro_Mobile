@@ -1,0 +1,45 @@
+<template>
+	<view>
+		<uni-collapse>
+			<uni-collapse-item title="什么是大数据？" :open="true">
+				<view style="padding: 15px;">
+					<text style="font-size: 14px;color: #666;line-height: 20px;">
+						大数据(big data)，或称巨量资料，指的是所涉及的资料量规模巨大到无法透过主流软件工具， 在合理时间内达到撷取、管理、处理、并整理成为帮助企业经营决策更积极目的的资讯。 大数据的5V特点（IBM提出）：Volume（大量）、Velocity（高速）、Variety（多样）、Value（低价值密度）、Veracity（真实性）。
+						<uni-link href="https://baike.baidu.com/item/%E5%A4%A7%E6%95%B0%E6%8D%AE/1356941" text="——来自百度百科。" style="float: right;color: #007AFF;text-decoration: none;"></uni-link>
+					</text>
+				</view>
+			</uni-collapse-item>
+			<uni-collapse-item title="Vue框架介绍">
+				<view style="padding: 15px;">
+					<text style="font-size: 14px;color: #666;line-height: 20px;">
+						Vue是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是， Vue 被设计为可以自底向上逐层应用。 Vue 的核心库只关注视图层，不仅易于上手， 还便于与第三方库或既有项目整合。 另一方面，当与现代化的工具链以及各种支持类库结合使用时， Vue 也完全能够为复杂的单页应用提供驱动。
+						<uni-link href="https://cn.vuejs.org/v2/guide/index.html" text="——来自Vue官网。" style="float: right;color: #007AFF;text-decoration: none;"></uni-link>
+					</text>
+				</view>
+			</uni-collapse-item>
+			<uni-collapse-item title="Apache ECharts">
+				<view style="padding: 15px;">
+					<text style="font-size: 14px;color: #666;line-height: 20px;">
+						ECharts，一个使用 JavaScript 实现的开源可视化库， 可以流畅的运行在 PC 和移动设备上， 兼容当前绝大部分浏览器（IE9/10/11，Chrome，Firefox，Safari等）， 底层依赖矢量图形库 ZRender，提供直观，交互丰富，可高度个性化定制的数据可视化图表。
+						<uni-link href="https://echarts.apache.org/zh/feature.html" text="——来自ECharts官网" style="color: #007AFF;text-decoration: none;float: right;"></uni-link>
+					</text>
+				</view>
+			</uni-collapse-item>
+		</uni-collapse>
+	</view>
+</template>
+
+<script>
+	export default {
+		name:"collapse",
+		data() {
+			return {
+				
+			};
+		}
+	}
+</script>
+
+<style>
+
+</style>

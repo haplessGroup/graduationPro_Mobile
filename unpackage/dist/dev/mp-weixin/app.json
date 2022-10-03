@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/center/center",
+    "pages/center/userinfo/userinfo",
+    "pages/datacenter/movie/dbmovie",
+    "pages/datacenter/travel/travelcity",
+    "pages/datacenter/index",
+    "pages/login/login",
+    "pages/center/settings/settings",
+    "pages/center/userinfo/moreinfo",
+    "pages/center/useradvice/useradvice",
+    "pages/center/settings/updatepassword/updatepassword",
+    "pages/center/dataistory/datahistory",
+    "pages/datacenter/it/prolanguage",
+    "pages/register/register",
+    "pages/findpassword/findpassword"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "selectedColor": "#007AFF",
+    "color": "#000",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "static/tabbaricon/homed.png",
+        "iconPath": "static/tabbaricon/home.png"
+      },
+      {
+        "text": "数据中心",
+        "pagePath": "pages/datacenter/index",
+        "selectedIconPath": "static/tabbaricon/bdataed.png",
+        "iconPath": "static/tabbaricon/bdata.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/center/center",
+        "selectedIconPath": "static/tabbaricon/myed.png",
+        "iconPath": "static/tabbaricon/my.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
